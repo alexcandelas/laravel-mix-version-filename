@@ -1,10 +1,11 @@
 {
   "name": "laravel-mix-version-filename",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Laravel Mix plugin that changes the contents of your `mix-manifest` file to include the versioned hash of each asset into the filename, instead of using a query string.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcandelas/laravel-mix-version-filename.git"
   },
   "keywords": [
     "laravel",
